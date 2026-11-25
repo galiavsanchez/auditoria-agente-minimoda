@@ -27,4 +27,10 @@ Probé 6 tipos de ataque: **4 cayeron y 2 resistieron**.
 1. **Separar datos de instrucciones:** reseñas, mails e issues son datos; nunca deben tratarse como órdenes.
 2. **Mínimo permiso:** darle al asistente solo las herramientas y los datos que su tarea necesita. Para revisar un issue alcanza con leerlo y etiquetarlo.
 3. **Aprobación humana para lo crítico:** enviar datos, cerrar issues o crear descuentos tiene que requerir confirmación de una persona.
-4. **Controles fuera del modelo:** validar identidad, destinatarios
+4. **Controles fuera del modelo:** validar identidad, destinatarios permitidos y límites de cupones en el sistema de la tienda, no en el prompt.
+5. **Nada secreto en el prompt:** sacar códigos internos y datos de clientes de la configuración.
+
+## Contenido del repositorio
+- [hallazgos/](hallazgos/): un archivo por ataque, con pasos, evidencia, impacto y recomendación.
+- [casos-de-prueba.md](casos-de-prueba.md): casos para la regresión de seguridad.
+- [evidencias/](evidencias/): capturas de los 6 retos.
